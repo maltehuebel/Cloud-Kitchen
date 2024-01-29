@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.main-container{
+  display: flex;
+  padding-right: 32px;
+}
+
+.shopping-cart{
+  width: 25vw;
+}
+
+@media (max-width: 850px){
+  .container{
+      flex-direction: column;
+  }
+}
